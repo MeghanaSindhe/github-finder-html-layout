@@ -3,6 +3,10 @@
     padding:0;
     box-sizing: border-box;
     color: #ffffff;
+   
+}
+a{
+    text-decoration: none;
 }
 #header{
     background-color: #000000;
@@ -25,7 +29,14 @@
     width:35px;
 }
 #nav-container{
-    background-color: red;
-    width:600px;
+    width:150px;
     height:2.5rem;
+    display: flex;
+    align-items: center;
+    padding-left:18px;
+    padding-right:18px;
+}
+#home{
+    padding-right:18px;
+    
 }
