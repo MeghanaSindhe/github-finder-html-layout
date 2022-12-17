@@ -1,3 +1,31 @@
-#title{
-    color:red;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+#header{
+    background-color: #000000;
+    height:4.5rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:8rem;
+    padding-right:8rem;
+}
+#logo-container{
+    width: 200px;
+    height:2.5rem;
+    display: flex;
+    align-items: center;
+    
+}
+#logo{
+    margin-right:10px;
+    width:35px;
+}
+#nav-container{
+    background-color: beige;
+    width:600px;
+    height:2.5rem;
 }
