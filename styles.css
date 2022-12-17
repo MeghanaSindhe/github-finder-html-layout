@@ -25,12 +25,15 @@ a {
     height: 2.5rem;
     display: flex;
     align-items: center;
-
 }
 
 #logo {
     margin-right: 10px;
     width: 35px;
+}
+
+#app-title{
+    font-size: 1.5em;
 }
 
 #nav-container {
@@ -40,16 +43,16 @@ a {
     align-items: center;
     padding-left: 18px;
     padding-right: 18px;
+    font-size: 0.85em;
 }
 
 #home {
     padding-right: 18px;
-
 }
 
 #body {
     background-color: #36454F;
-    height: 500px;
+    height: calc(100vh - 4.5rem - 6.5rem);
     display: flex;
     align-items: center;
     padding-left: 8rem;
@@ -75,7 +78,7 @@ a {
     border: none;
     outline: none;
     color: black;
-    font-size: 1.5em;
+    font-size: 1em;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
@@ -83,8 +86,29 @@ a {
 #search-btn-container {
     background-color: #353935;
     width: 20%;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+
+#footer {
+    background-color: #353935;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: sticky;
+    bottom: 0;
+}
+
+#hash{
+    font-size: 3em;
+    font-weight: bolder;
+    transform: rotate(330deg);
+}
+
+#footer-text{
+    font-size: 0.8em;
 }
